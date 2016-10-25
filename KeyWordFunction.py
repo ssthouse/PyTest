@@ -14,7 +14,7 @@ def kw_func(name, age, **kw):
 # 意义在于 单个*用于表明所有的可变参数
 #         两个**用于表明 除了普通的参数外, 其他的可变参数
 kw_func("ssthouse", 21, **{"item1": "value1", "item2": "value2"})
-print
+print()
 kw_func("ssthouse", 21, item1="value1", item2="value2")
 
 
