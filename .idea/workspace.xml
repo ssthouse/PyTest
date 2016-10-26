@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3694a39-1f58-4534-b4c3-fcfe4b66630d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IO/BytesIO.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IO/FileDirOperation.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IO/Pickling.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IO/ReadingFile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IO/StringIO.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IO/WritingFile.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IO/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Process&amp;Thread/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegularExpression/Main.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RegularExpression/__init__.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/模块/1.DateTime.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/模块/使用第三方模块/Collection.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/错误的调试/ExceptionHandle.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/错误的调试/UsingAssert.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/错误的调试/UsingLogging.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/错误的调试/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/面向对象编程/定制类.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/面向对象编程/枚举.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/模块/2.Collection.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PythonLearning.iws" />
@@ -65,34 +49,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RegularExpression/Main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1.DateTime.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/模块/1.DateTime.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collection.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/模块/使用第三方模块/Collection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
-              <folding>
-                <element signature="e#15#49#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -289,6 +251,9 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/模块" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/模块/使用第三方模块" />
       <recent name="$PROJECT_DIR$" />
@@ -380,7 +345,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PythonLearning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/模块/使用第三方模块/Collection.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/模块/2.Collection.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -652,7 +617,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477400939447</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finish learning IO module">
+      <created>1477486219423</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1477486219423</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -723,7 +695,8 @@
     <MESSAGE value="Finish function learning" />
     <MESSAGE value="Finish using third party package to generate a thumbnail" />
     <MESSAGE value="Finish learning @property usage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish learning @property usage" />
+    <MESSAGE value="Finish learning IO module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish learning IO module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1041,26 +1014,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RegularExpression/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/python3/3.5.2_1/Frameworks/Python.framework/Versions/3.5/lib/python3.5/datetime.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="251" column="30" selection-start-line="251" selection-start-column="26" selection-end-line="251" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/模块/1.DateTime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1073,13 +1030,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/模块/使用第三方模块/Collection.py">
+    <entry file="file://$PROJECT_DIR$/模块/2.Collection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#15#49#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/模块/1.DateTime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegularExpression/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
